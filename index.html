@@ -391,12 +391,8 @@
 
   function correctCode(){
     locked = false;
-    if (Date.now() >= TARGET){
-      showScreen("screen-message");
-    } else {
-      showScreen("screen-countdown");
-      startCountdown();
-    }
+        showScreen("screen-message");
+
     spawnTulipsOverlay();
   }
 
